@@ -21,3 +21,5 @@ console.log(typeof age); //number
 console.log(typeof null); //object
 console.log(typeof undefined); //undefined
 console.log(typeof "Siddhant") //string
+console.log(typeof isLoggedIn)
+console.log(2+2)
