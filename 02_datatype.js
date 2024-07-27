@@ -23,3 +23,4 @@ console.log(typeof undefined); //undefined
 console.log(typeof "Siddhant") //string
 console.log(typeof isLoggedIn)
 console.log(2+2)
+console.log(2*2)
