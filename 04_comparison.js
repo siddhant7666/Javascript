@@ -15,3 +15,10 @@ console.log(null >= 0);  //true -> null got converted in 0 here
 console.log(undefined == 0); //false
 console.log(undefined == 0); //false
 console.log(undefined == 0); //false
+
+
+// STRICT CHECK  ===
+
+console.log("2" == 2); //true -> convert karke compare karega...
+
+console.log("2" === 2); // false , compares datatype also.
