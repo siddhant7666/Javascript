@@ -114,6 +114,30 @@ console.log(typeof(myFunction)); // function
 
 // MEMORY 
 
+// STACK (Primitive type ), HEAP (Non Primitive type)
+
+let myYoutubename = "Siddhantdotcom"
+
+let anotherName = myYoutubename
+
+anotherName = "lollodotcom"
+
+console.log(myYoutubename); //Siddhantdotcom 
+console.log(anotherName); //lollodotcom
 
 
 
+
+let userOne = {
+    email : "user@google.com",
+    upi : "user@ybl"
+}
+
+let userTwo = userOne
+
+userTwo.email = "sidd@google.com"
+
+console.log(userOne.email); // sidd@google.com
+console.log(userTwo.email); //sidd@google.com
+
+// because, both are poiniting to the same memory and change in anyone will lead to change in all  -> heap memory
