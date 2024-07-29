@@ -56,3 +56,55 @@ In this example, the variable x changes its type from a number to a string, demo
 
 
 */
+
+const score = 100   //number
+const newScore = 100.3 // number
+const temp = null; // typeof(temp) -> OBJECT
+
+
+let userEmail; // value inside is undefined
+
+
+//Symbol for unique storage of anything
+const id = Symbol('123')
+const anotherId = Symbol('123')
+
+console.log(id===anotherId); // FALSE
+
+const bigNumber = 232434566787987865n
+console.log(typeof(bigNumber)); //bigint
+// use 'n' in the end for big int
+
+
+
+
+
+
+
+// ARRAYS,OBJECTS, FUNCTIONS 
+
+const heros = ["shaktiman", "nagraj", "doga"];  // ARRAYS
+
+console.log(typeof(heros)); // object
+
+//objects : 
+//storing object in a variable
+
+let myObject = {
+
+    name: "Sidd",
+    age: 22,
+}
+
+console.log(typeof(myObject)); //object
+
+//Function :
+// storing function in a variable
+
+const myFunction = function(){
+    console.log("Hello World");
+}
+
+console.log(typeof(myFunction)); // function
+
+
