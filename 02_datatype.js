@@ -80,7 +80,7 @@ console.log(typeof(bigNumber)); //bigint
 
 
 
-
+// NON PRIMITIVE TYPES
 // ARRAYS,OBJECTS, FUNCTIONS 
 
 const heros = ["shaktiman", "nagraj", "doga"];  // ARRAYS
@@ -106,5 +106,14 @@ const myFunction = function(){
 }
 
 console.log(typeof(myFunction)); // function
+
+
+
+//++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++//
+
+
+// MEMORY 
+
+
 
 
