@@ -48,6 +48,15 @@ console.log(newStringOne);//     Siddhant.
 console.log(newStringOne.trim()); //Siddhant.
 
 
+const url = "https://siddhant.com/siddhant%20singh";
+
+console.log(url.replace('%20', '-'));
+//https://siddhant.com/siddhant-singh
+
+
+console.log(url.includes('siddhant'));//true
+
+console.log(url.includes('padhai'));//false
 
 
 
