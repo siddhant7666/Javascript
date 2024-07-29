@@ -29,3 +29,25 @@ console.log(gameName.toUpperCase());
 console.log(gameName.charAt(4));
 
 console.log(gameName.indexOf('o'));
+
+const newString = gameName.substring(0,4)
+console.log(newString); // Hell (0-3)
+
+const anotherString = gameName.slice(0,4);
+console.log(anotherString); // Hell
+
+// anotherString=gameName.slice(-5,4)
+// console.log(anotherString);
+
+
+// TRIM SPACES 
+
+const newStringOne = "    Siddhant.   "
+
+console.log(newStringOne);//     Siddhant.   
+console.log(newStringOne.trim()); //Siddhant.
+
+
+
+
+
