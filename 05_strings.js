@@ -21,3 +21,11 @@ const newgameName = " Namaste Duniya"
 console.log(newgameName[0]); // space will get printed
 console.log(newgameName[1]); // a
 
+
+console.log(gameName.length);
+console.log(newgameName.length);
+
+console.log(gameName.toUpperCase());
+console.log(gameName.charAt(4));
+
+console.log(gameName.indexOf('o'));
